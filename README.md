@@ -1,6 +1,6 @@
 # AI Parking System
 
-An intelligent car park management system for the Automation and Mechatronics coursework.
+An intelligent car park management system for a mechatronics coursework project.
 
 The system uses Arduino for the physical devices and Python for camera recognition, database management, payment logic, and the dashboard.
 
@@ -25,7 +25,7 @@ Tested with:
 Install Python dependencies:
 
 ```powershell
-cd "D:\Sussex Course materials\Automation and Mechatronics\Code\Python_code"
+cd Python_code
 python -m pip install -r requirements.txt
 ```
 
@@ -87,7 +87,7 @@ Code/Arduino_code/parking/parking.ino
 Close the Arduino Serial Monitor before running Python scripts.
 
 ```powershell
-cd "D:\Sussex Course materials\Automation and Mechatronics\Code\Python_code"
+cd Python_code
 python enroll_rfid_cards.py COM15
 ```
 
